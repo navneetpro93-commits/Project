@@ -1,0 +1,16 @@
+{
+  "name": "finguard-fullstack",
+  "version": "1.0.0",
+  "description": "FinGuard - Core Java Backend with React Tailwind Frontend",
+  "scripts": {
+    "start": "./start.sh",
+    "dev": "./start.sh",
+    "build:java": "javac -cp \"lib/mysql-connector-j.jar:.\" -d . finguard/db/*.java finguard/api/*.java finguard/*.java finguard/*/*.java",
+    "server": "java -cp \"lib/mysql-connector-j.jar:.\" finguard.api.ApiMain 8080",
+    "client": "cd frontend && npm run dev",
+    "build": "npm run build:java && cd frontend && npm run build"
+  },
+  "keywords": ["java", "react", "tailwind", "fintech"],
+  "author": "Navneet",
+  "license": "ISC"
+}

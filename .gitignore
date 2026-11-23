@@ -1,0 +1,14 @@
+__MACOSX/
+**/.DS_Store
+**/node_modules/
+**/dist/
+*.log
+.env
+*.class
+.idea/
+.vscode/
+
+
+
+
+finguard/db/db.properties

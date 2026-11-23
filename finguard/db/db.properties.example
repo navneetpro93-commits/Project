@@ -1,0 +1,4 @@
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://mysql-2d3e7faf-bankcore.i.aivencloud.com:19960/defaultdb?sslmode=require&allowPublicKeyRetrieval=true&useSSL=true
+db.user=root
+db.password=root
